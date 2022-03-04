@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "League Spartan", sans-serif;
+  font-size: 62.5%;
+  font-weight: 100;
+}
+
+body {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-hojas-tropicales-oscuro-realista_52683-32882.jpg?w=900);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+}
+
+h3 {
+  font-size: 2.8em;
+  font-weight: 200;
+}
+
+.hero {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 25%;
+}
+
+.hero h1 {
+  font-size: 7em;
+  font-weight: 300;
+}
+
+.hero p {
+  font-size: 2.5rem;
+}
+
+.linea {
+  background-color: #fff;
+  height: 0.1rem;
+  width: 40%;
+}
+
+footer {
+  font-size: 2em;
+}
